@@ -32,12 +32,12 @@ $(call inherit-product, device/sony/seagull/aosp_d5103.mk)
 $(call inherit-product, device/sony/common/resources.mk)
 
 # Inherit CM common stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/tesla/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=D5103 \
     BUILD_FINGERPRINT=Sony/D5103/D5103:4.4.2/18.1.A.1.21/6vt_bw:user/release-keys \
     PRIVATE_BUILD_DESC="D5103-user 4.4.2 18.1.A.1.21 6vt_bw release-keys"
 
-PRODUCT_NAME := cm_seagull
+PRODUCT_NAME := tesla_seagull
 PRODUCT_DEVICE := seagull
